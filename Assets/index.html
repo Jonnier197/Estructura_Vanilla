@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="scrips.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <section>
+        <div class="card">
+            <div class="avatar-container">
+                <img 
+                    src="./Avatar.png" 
+                    alt="avatar" 
+                    class="avatar" 
+                    id="avatarPreview">
+            </div>
+
+            <div class="description-container">
+                <h2>Descripcion del CV</h2>
+                <p>Ingeniero de sistemas</p>
+            </div>
+            <div class="contact-container">
+                <p>☎ 3215675487</p>
+            </div>
+            <div class="link_container">
+                <a href="education.html" class="link-card">Educación</a>
+                <a href="experience.html" class="link-card">Experiencia</a>
+            </div>
+            <button id="downloadBtn" class="link-card">Descargar CV en PDF</button>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.link-card{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background: lightgray;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}
